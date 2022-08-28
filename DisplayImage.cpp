@@ -160,6 +160,9 @@ HRESULT DemoApp::Initialize(HINSTANCE hInstance)
 			this
 		);
 
+		//SetWindowLongPtr(hWnd, GWL_STYLE, WS_POPUP); //3d argument=style
+		//SetWindowPos(hWnd, HWND_TOPMOST, (ScreenX - uiWidth) / 2, (ScreenY - uiHeight) / 2, uiWidth, uiHeight, SWP_SHOWWINDOW);
+
 		hr = hWnd ? S_OK : E_FAIL;
 	}
 	

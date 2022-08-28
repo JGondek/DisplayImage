@@ -1,5 +1,4 @@
 #pragma once
-#include "Resource.h"
 
 const FLOAT DEFAULT_DPI = 96.f;   // Default DPI that maps image resolution directly to screen resoltuion
 #define ScreenX GetSystemMetrics(SM_CXSCREEN)
